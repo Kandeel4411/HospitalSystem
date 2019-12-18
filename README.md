@@ -1,2 +1,2 @@
 # HospitalSystem
-A simple CRUD application for a patient database
+A simple web application for a patient database
