@@ -17,7 +17,7 @@
                 <div class="form-group">
                     <label for="patientLastVisit">Last Visit</label>
                     <input type="date" class="form-control" id="patientLastVisit" name="patientLastVisit" placeholder="Enter patient Last Visit">
-                    <small id="VistHelp" class="form-text text-muted">Generates report on patients last vist at that date.</small>
+                    <small id="VisitHelp" class="form-text text-muted">Generates report on patients last visit at that date.</small>
 
                 </div>
                 <div class="text-center">
