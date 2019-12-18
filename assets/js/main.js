@@ -34,7 +34,7 @@ function displayTable(obj) {
     "Date-Of-Entry",
     "Medical-History",
     "Physician",
-    "Last-Vist"
+    "Last-Visit"
   ];
 
   let tr = document.createElement("tr");
@@ -70,7 +70,7 @@ function displayReport(obj) {
     "Date-Of-Entry",
     "Medical-History",
     "Physician",
-    "Last-Vist"
+    "Last-Visit"
   ];
 
   obj.forEach(patient => {
