@@ -34,7 +34,7 @@ CREATE TABLE `patients` (
   `Date-Of-Entry` date NOT NULL,
   `Medical-History` text NOT NULL,
   `Physician` varchar(255) NOT NULL,
-  `Last-Vist` date NOT NULL
+  `Last-Visit` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
