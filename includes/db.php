@@ -26,7 +26,7 @@ if (isset($_POST['register'])) {
 
 
     //Inserting data into database
-    $sql = "INSERT INTO `patients`(`ID`, `Name`, `Date-Of-Entry`, `Medical-History`, `Physician`, `Last-Vist`) VALUES (:id,:name,:doe,:mh,:p,:lv)";
+    $sql = "INSERT INTO `patients`(`ID`, `Name`, `Date-Of-Entry`, `Medical-History`, `Physician`, `Last-Visit`) VALUES (:id,:name,:doe,:mh,:p,:lv)";
 
     $statement = $db->prepare($sql);
     $statement->execute(array(
@@ -67,7 +67,7 @@ if (isset($_POST['register'])) {
     }
 
     // Querying database for search to report
-    $sql = "SELECT * FROM `patients` WHERE `Last-Vist` = :lvisit";
+    $sql = "SELECT * FROM `patients` WHERE `Last-Visit` = :lvisit";
 
     $statement = $db->prepare($sql);
     $statement->execute(array(
